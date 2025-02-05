@@ -44,12 +44,6 @@ The SQL script performs the following steps:
 
 ![RFM Dashboard Detailed](img/rfm_dashboard_2.png)  
 
-## Technologies Used
-
-- **SQL** (for data extraction and processing)  
-- **Excel** (for reference sheet)  
-- **Tableau** (for visualisation)  
-
 ## Tableau Public Link
 
 The RFM analysis and visualisation were done in Tableau. You can view the interactive dashboard here:  
