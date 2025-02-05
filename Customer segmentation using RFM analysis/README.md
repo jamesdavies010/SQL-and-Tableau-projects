@@ -40,10 +40,8 @@ The SQL script performs the following steps:
 
 ### RFM Dashboard Visualisations
 
-#### Bubble chart (monetary metrics represented by bubble size)
 ![RFM Bubble Chart](img/rfm_dashboard_1.png)
 
-#### Summary of RFM Segments
 ![RFM Dashboard Detailed](img/rfm_dashboard_2.png)  
 
 ## Technologies Used
