@@ -79,9 +79,7 @@ However, a **sample of 1,000 rows** (`raw_events_sample`) is available for refer
 🚀 **More data is needed**: Before making strong conclusions, additional **data from more months** is required to confirm whether the observed trends are seasonal.
 
 📉 **Monitor the "add to cart | page view" ratio**:  
-- If this ratio continues to decline, the company should investigate:
-  - **Product appeal**: Are users clicking on the site but not finding interesting products?
-  - **Website UX design**: Is the checkout process intuitive? Are users struggling to add items to their cart?
+- If this ratio continues to decline, the company should focus on making the products more appealing to customers or the design of the website more enticing. In other words, why are users clicking on our page but then not finding any items that they would like to purchase?
 
 📊 **Statistical testing**:  
 - Conduct **chi-square tests** to assess whether differences in **conversion rates** across **countries and months** are statistically significant.
