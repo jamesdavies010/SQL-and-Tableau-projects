@@ -6,7 +6,7 @@ This repository contains a collection of SQL- and Tableau-based data analysis pr
 
 ### 1️⃣ [Customer Conversion Analysis Using Funnels](./Customer%20conversion%20analysis%20using%20funnels/)
 🔹 **Focus:** Analysing customer drop-off rates and conversion through an e-commerce sales funnel.  
-🔹 **Tech Stack:** SQL, Tableau  
+🔹 **Tech Stack:** SQL, Excel
 🔹 **Key Insights:** Identifies weak points in the sales funnel and provides actionable recommendations to improve conversion rates.
 
 ---
