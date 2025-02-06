@@ -15,12 +15,35 @@ To ensure accurate conversion metrics, **duplicate events are removed** by keepi
 
 ---
 
-## 📜 SQL queries
+## 📁 Project Structure
+
+### 1️⃣ Input File
+The dataset used for this analysis is stored in a CSV file (`raw_events_sample.csv`).  
+- It contains raw **user interaction data** from the website.
+- Each row represents an **event**, with details like user ID, timestamp, and event type (e.g., `page_view`, `add_to_cart`, `purchase`).
+- This data is processed using SQL to build the **conversion funnel**.
+
+#### 🖼 Sample Input Data:
+![Sample Input File](img/raw_events_sample.png)  
+
+---
+
+### 2️⃣ SQL Code
+The SQL queries transform the raw event data into a structured **conversion funnel analysis**.
 
 - **`Funnel_Analysis_1_All.sql`**: Extracts **unique users** for the entire time period, avoiding duplicate user counts.
 - **`Funnel_Analysis_2_By_Month.sql`**: Tracks **unique users per month**, ensuring users are counted in each month they make a purchase.
 
 🔍 These queries analyse conversion trends over time, helping to understand variations across months and user behaviour.
+
+#### 🖼 SQL Query Outputs:
+![SQL Query Output 1](img/funnel_analysis_output_1.png)  
+  
+
+---
+
+### 3️⃣ Funnel Dashboard
+The processed data is visualised using **Excel**, providing key insights into **drop-off rates and conversion rates** at each stage of the funnel.---
 
 ---
 
@@ -28,7 +51,16 @@ To ensure accurate conversion metrics, **duplicate events are removed** by keepi
 
 ### 📌 Excel analysis
 - **Dashboard:** Provides an **overview of conversion rates** across different countries and months.
-- **Appendix:** Contains **detailed numerical breakdowns** of conversion metrics.
+
+An example of conversion rates in the United States from November to January can be found below:
+
+![US overview](img/us_overview.png)
+
+![US November](img/us_november.png)
+
+![US December](img/us_december.png)
+
+![US January](img/us_january.png)
 
 ⚠ **Dataset size note**:  
 The **original dataset** contains **over 5 million rows** and cannot be downloaded.  
