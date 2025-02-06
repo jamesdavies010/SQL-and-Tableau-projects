@@ -37,7 +37,7 @@ The SQL queries transform the raw event data into a structured **conversion funn
 🔍 These queries analyse conversion trends over time, helping to understand variations across months and user behaviour.
 
 #### 🖼 SQL Query Outputs:
-![SQL Query Output 1](img/funnel_analysis_output_1.png)  
+![SQL Query Output](img/sql_screenshot.png)  
   
 
 ---
@@ -56,11 +56,7 @@ An example of conversion rates in the United States from November to January can
 
 ![US overview](img/us_overview.png)
 
-![US November](img/us_november.png)
-
-![US December](img/us_december.png)
-
-![US January](img/us_january.png)
+![US by month](img/us_nov_dec_jan.png)
 
 ⚠ **Dataset size note**:  
 The **original dataset** contains **over 5 million rows** and cannot be downloaded.  
