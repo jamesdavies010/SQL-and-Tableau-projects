@@ -76,7 +76,7 @@ The SQL script performs the following steps:
 ## Tableau Public Link
 
 The RFM analysis and visualisation were done in Tableau. You can view the interactive dashboard here:  
-👉 [View RFM Dashboard on Tableau Public](https://public.tableau.com/app/profile/james.davies4008/viz/MAT-P3-RFMJamesDavies/Dashboard)
+👉 [View RFM Dashboard on Tableau Public](https://public.tableau.com/app/profile/james.davies4008/viz/CustomersegmentationanalysisusingRFM/Dashboard)
 
 ## Software Used
 
