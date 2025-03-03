@@ -12,6 +12,12 @@ RFM (Recency, Frequency, Monetary) segmentation is a technique used in marketing
 
 The project involves extracting and processing customer transaction data using SQL, then visualising the results using Tableau.
 
+#### 🖼 RFM Dashboard:
+![RFM Bubble Chart](img/rfm_dashboard_1b.png)
+
+![RFM Dashboard Detailed](img/rfm_dashboard_2b.png)  
+
+
 ---
 
 ## 📁 Project Structure
@@ -48,11 +54,6 @@ The processed RFM data is visualised using **Tableau**, providing key insights i
 **Key visualisations include:**
 - **Bubble Chart**: Displays different customer groups based on their RFM scores.
 - **Segment Summary**: Shows key statistics like revenue, order values, and average days since the last purchase.
-
-#### 🖼 RFM Dashboard Visualisations:
-![RFM Bubble Chart](img/rfm_dashboard_1.png)
-
-![RFM Dashboard Detailed](img/rfm_dashboard_2.png)  
 
 ---
 
