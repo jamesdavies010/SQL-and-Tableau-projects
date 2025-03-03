@@ -12,11 +12,12 @@ RFM (Recency, Frequency, Monetary) segmentation is a technique used in marketing
 
 The project involves extracting and processing customer transaction data using SQL, then visualising the results using Tableau.
 
-#### 🖼 RFM Dashboard:
+You can view the interactive dashboard here:  
+👉 [View RFM Dashboard on Tableau Public](https://public.tableau.com/app/profile/james.davies4008/viz/CustomersegmentationanalysisusingRFM/Dashboard)
+
 ![RFM Bubble Chart](img/rfm_dashboard_1b.png)
 
 ![RFM Dashboard Detailed](img/rfm_dashboard_2b.png)  
-
 
 ---
 
@@ -73,11 +74,6 @@ The SQL script performs the following steps:
 - The **Potentially loyal** customers have the third highest average revenue ($970, compared with $5,223 for top customers and $2,040 for must not lose customers), and an average order value of $439 (similar to top customers). They show promise for the future.
 
 ---
-
-## Tableau Public Link
-
-The RFM analysis and visualisation were done in Tableau. You can view the interactive dashboard here:  
-👉 [View RFM Dashboard on Tableau Public](https://public.tableau.com/app/profile/james.davies4008/viz/CustomersegmentationanalysisusingRFM/Dashboard)
 
 ## Software Used
 
