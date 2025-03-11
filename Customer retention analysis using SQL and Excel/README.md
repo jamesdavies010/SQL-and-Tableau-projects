@@ -76,24 +76,6 @@ The analysis is based on **SQL queries** that calculate **weekly retention and c
 
 ---
 
-## 🛠 How to Use the SQL Script  
-
-### 1️⃣ **Define the Date Range**  
-- Modify the **`date_range` CTE** if you wish to analyze a different period  
-
-### 2️⃣ **Run the Main Query**  
-- Use the **`main` CTE** to filter subscriptions data within the defined date range  
-
-### 3️⃣ **Calculate Active Customers by Week**  
-- The **`output` CTE** calculates the active subscribers per cohort for **weeks 1 to 6**  
-
-### 4️⃣ **Calculate Churn and Retention Rates**  
-- Additional **CTEs** provide:  
-  - **📉 Churn rate:** `churn_rate`  
-  - **📊 Retention rate metrics:** `retention_rate_vs_week_0` and `retention_rate_vs_previous_week`  
-
----
-
 ## 📊 Visuals and Findings  
 
 ### **Total Users per Cohort per Week**  
@@ -128,3 +110,21 @@ The analysis is based on **SQL queries** that calculate **weekly retention and c
 ## 🤝 Contribution Guidelines  
 
 Contributions are welcome! Please feel free to submit a **pull request** or raise an **issue** if you have any suggestions.
+
+---
+
+## 🛠 How to Use the SQL Script  
+
+### 1️⃣ **Define the Date Range**  
+- Modify the **`date_range` CTE** if you wish to analyze a different period  
+
+### 2️⃣ **Run the Main Query**  
+- Use the **`main` CTE** to filter subscriptions data within the defined date range  
+
+### 3️⃣ **Calculate Active Customers by Week**  
+- The **`output` CTE** calculates the active subscribers per cohort for **weeks 1 to 6**  
+
+### 4️⃣ **Calculate Churn and Retention Rates**  
+- Additional **CTEs** provide:  
+  - **📉 Churn rate:** `churn_rate`  
+  - **📊 Retention rate metrics:** `retention_rate_vs_week_0` and `retention_rate_vs_previous_week`  
