@@ -29,7 +29,7 @@ By just looking at a summary of **monthly subscription numbers** or **quarterly 
 
 A **cohort analysis** provides **data-driven insights**, which lead to **better decisions and increased profitability**.
 
-This can be combined with a **funnel analysis** `[insert link]` to explicitly determine **where in the process your customers are losing value from your offering**.  
+This can be combined with a **funnel analysis** to explicitly determine **where in the process your customers are losing value from your offering**.  
 
 - A **cohort analysis** offers a **week-by-week summary**  
 - A **funnel analysis** can track customers from onboarding **to materiality assessment, gap analysis, and onwards**  
